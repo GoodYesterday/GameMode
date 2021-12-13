@@ -1,0 +1,15 @@
+---
+name: GameMode
+author: GYo.O
+version: G111
+main: GY\PM4\GM
+api: 4.0.0
+
+commands:
+  gm:
+    description: 게임모드를 관리합니다
+    permission: gm.cmd
+permissions:
+  gm.cmd:
+    default: op
+...
